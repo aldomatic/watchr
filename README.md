@@ -9,7 +9,6 @@ Watchr normalises the node.js watching functionality between 0.4's `fs.watchFile
 
 	``` javascript
 	// Requires
-	require('coffee-script'); # watchr dependency
 	var watchr = require('watchr');
 
 	// Watch
