@@ -51,10 +51,12 @@ watchr.watch({
         // Close watchers after 10 Minutes
         setTimeout(function(){
             var i;
-            console.log('Stop watching our paths');
+            console.log('--------------------------------------------------------------');
+            console.log('--------------- Stopped watchers, run cmd again --------------');
+            console.log('--------------------------------------------------------------');
             for ( i=0;  i<watchers.length; i++ ) {
                 watchers[i].close();
             }
-        },60*1000);
+        },600000);
     }
 });
